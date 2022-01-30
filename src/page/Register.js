@@ -1,10 +1,14 @@
 import React from 'react';
+
 import { Link,NavLink } from 'react-router-dom';
 //RFC
 export default function Register() {
 //1. States
 
+
+
 //2. FUnctions
+    
 
 //3. Return JSX
 return (
@@ -33,10 +37,10 @@ return (
                 <div className="col-12 col-md-10">
                     <h1 className="font__family-montserrat font__weight-bold font__size-42 line__height-42 mt-0 mb-45">REGISTER</h1>
                     <form action="#" className="brk-form brk-form-strict maxw-570" data-brk-library="component__form">
-                    <input type="email" placeholder="Email Address" />
+                    <input type="email"  placeholder="Email Address" />
                     <input type="password" placeholder="Password" />
                     <div className="mt-20 d-flex flex-wrap justify-content-between">
-                        <button className="btn-backgrounds btn-backgrounds btn-backgrounds_280 btn-backgrounds_white btn-backgrounds_left-icon font__family-montserrat font__weight-bold text-uppercase font__size-13 z-index-2 text-center letter-spacing-20 mt-10" data-brk-library="component__button">
+                        <button  className="btn-backgrounds btn-backgrounds btn-backgrounds_280 btn-backgrounds_white btn-backgrounds_left-icon font__family-montserrat font__weight-bold text-uppercase font__size-13 z-index-2 text-center letter-spacing-20 mt-10" data-brk-library="component__button">
                         <span className="text">REGISTER</span>
                         <span className="before"><i className="far fa-hand-point-right" /></span>
                         </button>

@@ -1,9 +1,12 @@
 
+
 import { Link,NavLink } from 'react-router-dom';
 
 //RFC
 export default function Login() {
     //1. State
+    
+
 
     //2. FUnctions 
 
@@ -31,9 +34,9 @@ export default function Login() {
                     <div className="container-fluid">
                         <div className="row justify-content-lg-start justify-content-center">
                         <div className="col-lg-2 d-none d-lg-block" />
-                        <div className="col-12 col-lg-10">
+                     <div className="col-12 col-lg-10">
                             <h1 className="font__family-montserrat font__weight-bold font__size-42 line__height-42 mt-0 mb-45 text-center text-lg-left">LOGIN</h1>
-                            <form action="#" className="brk-form brk-form-strict maxw-570 mx-auto mx-lg-0" data-brk-library="component__form">
+                         <form action="#" className="brk-form brk-form-strict maxw-570 mx-auto mx-lg-0" data-brk-library="component__form">
                             <input type="text" placeholder="Username or Email Address" />
                             <input type="password" placeholder="Password" />
                             <div className="no-margin pl-10 pr-10 mb-30 mt-40 d-flex flex-wrap justify-content-between align-items-center">
@@ -46,7 +49,7 @@ export default function Login() {
                                 </div>
                             </div>
                             <div className="d-flex flex-wrap justify-content-between align-items-center flex-column flex-lg-row">
-                                <button className="btn-backgrounds btn-backgrounds btn-backgrounds_280 btn-backgrounds_white btn-backgrounds_left-icon font__family-montserrat font__weight-bold text-uppercase font__size-13 z-index-2 text-center letter-spacing-20 mt-10" data-brk-library="component__button">
+                                <button  className="btn-backgrounds btn-backgrounds btn-backgrounds_280 btn-backgrounds_white btn-backgrounds_left-icon font__family-montserrat font__weight-bold text-uppercase font__size-13 z-index-2 text-center letter-spacing-20 mt-10" data-brk-library="component__button">
                                 <span className="text">Login Now</span>
                                 <span className="before"><i className="far fa-hand-point-right" /></span>
                                 </button>
